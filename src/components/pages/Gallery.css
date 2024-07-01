@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-content{
+    width: 90%;
+}
+
+.gallery-content p{
+    font-family: "Roboto-Light";
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #BDBDBD;
+    padding-top: 63px;
+}
+
+.gallery-content h3{
+    font-family: "Roboto-Medium";
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #333333;
+}
+
+.gallery-content .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 5px;
+    margin-bottom: 60px;
+  }
+
+  .grid-container > div {
+    text-align: center;
+    padding: 5px ;
+  }
+
+ .peg-content{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 3.5rem;
+  }
+ 
+  .peg span{
+    font-family:  "Roboto-Light";
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1,8rem;
+    color: #BDBDBD;
+    margin-top: 5.6rem;
+  }
+
+  .peg .first-peg{
+    color: #333333;
+  }
+
+  .slash{
+    font-size: 2rem;
+  }
+
+
+  .gallery-arrow{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .gallery-arrow  .icon{
+    font-size: 0.8rem;
+    width: 53px;
+    height: 50px;
+    border: 1px solid #bdbdbd7a;
+    padding: 0.8rem;
+    margin: 3px;
+margin-top: 2rem;
+  }
